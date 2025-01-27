@@ -37,7 +37,7 @@ public:
 
         Node* newhead= head->next;
         curr=head;
-        while(curr){                       //removing copied lisy
+        while(curr){                       //removing copied list
             Node* copy=curr->next;
             curr->next=copy->next;
             if(copy->next){
