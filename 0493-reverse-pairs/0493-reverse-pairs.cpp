@@ -1,7 +1,7 @@
 class Solution {
 public:
     // int reversePairs(vector<int>& nums) {
-    //     long long pair=0;                         BRUTE SEXY APPROACH
+    //     long long pair=0;                       //  BRUTE SEXY APPROACH
     //    for(int i=0;i<nums.size();i++){
     //     for(int j=0;j<nums.size();j++){
     //         if(i<j && nums[i]>2*(long long)nums[j]){
@@ -9,7 +9,7 @@ public:
     //         }
     //     }
     //     }
-    //     return pair;
+    //     return pair;}};
     
     int mergeAndCount(vector<int>& nums, int left, int mid, int right) {
         int count = 0, j = mid + 1;
